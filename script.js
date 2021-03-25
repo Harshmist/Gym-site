@@ -8,7 +8,7 @@ burger.addEventListener('click', ()=>{
 }
 navSlide();
 
-const navSlide2 = ()=>{
+const navSlide2 = ()=> {
   const arrow = document.querySelector('.arrowButton');
   const nav = document.querySelector('.nav-links');
 
