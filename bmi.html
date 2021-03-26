@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>Gym Site - Home</title>
+    <title>Gym Site - BMI</title>
 
 </head>
 <body>
@@ -22,17 +22,19 @@
     </div>
 
   </nav>
-  <div class="container-index">
-    <div class="home-welcome">
-    <h3 class="home-text">Welcome</h3>
-  <h2 class="home-text">to</h2>
-   <h2 class="home-text">the</h2>
- <h3 class="home-text">GYM</h3></div>
+  <div class="container-bmi">
+    <div class="bmi-inputs">
+      <input type="number" id="height-input" placeholder="height in cm"/><br>
+      <input type="number" id="weight-input" placeholder="weight in kg"/><br>
+      <button onclick="bmi()">Submit</button>
+      <h4 id="bmi-output" style="margin-top: 5px;"><h4>
+    </div>
+
     <div class="nav-links">
       <button class="arrowButton"><i class="fas fa-angle-double-left"></i></button>
-      <button onclick="workoutBuilder()">Workout Builder</button>
-      <button onclick="bmiPage()">BMI Calculator</button>
-      <button onclick="progressPage()">Progress Tracker</button>
+      <button>Workout Builder</button>
+      <button>BMI Calculator</button>
+      <button>Progress Tracker</button>
       </div>
   </div>
 <script src="script.js"></script>
